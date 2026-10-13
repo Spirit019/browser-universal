@@ -1,0 +1,12 @@
+{
+  "name": "btw-browser-driver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright driver for the /browser skill with a built-in plan/execute approval gate.",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
